@@ -20,7 +20,7 @@ export const StatList = styled.ul`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #0ca53a;
+    background-color: #099a2b;
 `;
 
 export const StatItem = styled.li`
@@ -32,4 +32,5 @@ export const StatItem = styled.li`
 export const StatData = styled.span`
     padding: 8px;
     font-size: 20px;
+    color: #e4d7d7;
 `;

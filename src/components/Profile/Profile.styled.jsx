@@ -13,7 +13,7 @@ export const ProfileWrapper = styled.div`
 export const Img = styled.img`
     display: inline-block;
     padding: 5px;
-    background-color: #b1cff3;
+    background-color: #7ed8e8;
     border-radius: 50%;
 `
 
@@ -39,7 +39,7 @@ export const Stats = styled.ul`
     justify-content: space-around;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #84b1e8;
+    background-color: #1cb7d2;
 `;
 
 export const ListItem = styled.li`
