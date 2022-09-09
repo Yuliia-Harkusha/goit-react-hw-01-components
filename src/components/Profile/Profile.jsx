@@ -18,15 +18,15 @@ export const Profile = ({ username = " User name", tag, location = " User locati
         <Stats>
             <ListItem>
                     <ListItemText><AiOutlineUsergroupAdd/>Followers</ListItemText>
-            <ListItemNumber>{followers}</ListItemNumber>
+                    <ListItemNumber>{followers}</ListItemNumber>
             </ListItem>
             <ListItem>
                     <ListItemText><AiOutlineEye/>  Views</ListItemText>
-            <ListItemNumber>{views}</ListItemNumber>
+                    <ListItemNumber>{views}</ListItemNumber>
             </ListItem>
             <ListItem>
                     <ListItemText><AiOutlineStar/>  Likes</ListItemText>
-            <ListItemNumber>{likes}</ListItemNumber>
+                    <ListItemNumber>{likes}</ListItemNumber>
             </ListItem>
         </Stats>
 </ProfileWrapper>
