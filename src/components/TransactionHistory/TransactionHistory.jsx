@@ -25,7 +25,6 @@ export const TransactionHistory = ({ items }) => {
                 }
             </tbody>
         </TransactionTable>
-
     )
 };
 

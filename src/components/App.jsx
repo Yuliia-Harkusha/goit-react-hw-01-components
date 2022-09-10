@@ -6,24 +6,33 @@ import { FriendList } from "./FriendList/FriendList";
 import friends from "../dataJson/friends.json";
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 import transactions from "../dataJson/transactions.json";
+import { Section } from "./Section.styled";
 
 export const App = () => {
   return (
     <div>
-      < Profile
-        avatar = {user.avatar}
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        stats = {user.stats}
-      />
+      <Section>
+        < Profile
+          avatar={user.avatar}
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          stats={user.stats}
+        />
+      </Section>
       
-      <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
+      <Section>
+        <Statistics title="Upload stats" stats={data} />
+        <Statistics stats={data} />
+      </Section>
 
-      <FriendList friends={friends} />
-
-      <TransactionHistory items={transactions} />;
+      <Section>
+        <FriendList friends={friends} />
+      </Section>
+      
+      <Section>
+        <TransactionHistory items={transactions} />
+      </Section>
     </div>
   );
 };

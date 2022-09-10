@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const TransactionTable = styled.table`
     width: 100%;
     text-align: center;
-    padding: 30px;
 `;
 
 export const TransactionHead = styled.thead`
